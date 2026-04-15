@@ -1,0 +1,20 @@
+{
+    "name": null,
+    "input_variables": [
+        "DIFFICULTY",
+        "GRADE",
+        "NUMBER_OF_QUESTIONS",
+        "OBJECTIVE",
+        "SUBJECT",
+        "TOPIC"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an experienced CBSE curriculum designer and educator.\n\nGenerate a structured worksheet based on the following inputs:\n\nGrade: {GRADE}\nSubject: {SUBJECT}\nChapter/Topic: {TOPIC}\nDifficulty Level: {DIFFICULTY}\nNumber of Questions: {NUMBER_OF_QUESTIONS}\nLearning Objective (optional): {OBJECTIVE}\n\n---\n\n### \ud83d\udcd8 CBSE Alignment Requirements:\nEnsure the worksheet strictly follows CBSE guidelines:\n1. Align with NCERT concepts and terminology.\n2. Cover a mix of competencies:\n   - Knowledge (recall-based)\n   - Understanding (conceptual clarity)\n   - Application (real-life/problem-solving)\n   - Higher Order Thinking Skills (HOTS)\n3. Include competency-based questions as per NEP 2020:\n   - Case-based questions\n   - Assertion-Reason questions (if applicable)\n4. Follow CBSE question patterns:\n   - Very Short Answer (1 mark)\n   - Short Answer (2\u20133 marks)\n   - Long Answer (4\u20135 marks)\n5. Maintain age-appropriate language and clarity.\n6. Avoid ambiguity and ensure questions are unambiguous.\n7. Include real-world/contextual examples wherever possible.\n\n---\n\n### \ud83d\udcc4 Worksheet Structure:\n\n#### Section A: Very Short Answer (1 mark each)\n- Multiple questions\n\n#### Section B: Short Answer (2\u20133 marks each)\n- Multiple questions\n\n#### Section C: Long Answer (4\u20135 marks each)\n- Multiple questions\n\n#### Section D: Case-Based / Competency-Based Questions\n- Include 1\u20132 passages/scenarios followed by 3\u20135 questions each\n\n#### Section E: Higher Order Thinking Skills (HOTS)\n- Include 2\u20133 challenging analytical questions\n\n---\n\n### \ud83d\udcdd Additional Requirements:\n- Provide answer key at the end.\n- Ensure answers are crisp and CBSE-evaluation friendly.\n- Use diagrams/tables where relevant (describe if needed).\n- Keep formatting clean and printable.\n\n---\n\n### \ud83c\udfaf Output Format:\n- Clearly formatted worksheet\n- Proper section headings\n- Numbered questions\n- Separate Answer Key section\n\nGenerate the worksheet now.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
